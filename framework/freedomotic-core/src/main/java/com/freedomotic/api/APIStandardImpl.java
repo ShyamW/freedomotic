@@ -107,7 +107,7 @@ class APIStandardImpl implements API {
 
     /**
      *
-     * @return
+     * @return AppConfig
      */
     @Override
     public AppConfig getConfig() {
@@ -140,7 +140,7 @@ class APIStandardImpl implements API {
 
     /**
      *
-     * @return
+     * @return clientStorage
      */
     @Override
     public ClientStorage getClientStorage() {
